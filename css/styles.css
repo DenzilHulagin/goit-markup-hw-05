@@ -566,3 +566,11 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .wrapper-div{
     margin-bottom: 8px;
 }
+.label-form{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:#8e8f99;
+    margin-bottom: 4px;
+    display: block;
+}

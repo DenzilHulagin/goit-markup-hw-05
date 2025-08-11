@@ -650,11 +650,11 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .link-privacy{
     color:  #4d5ae5;
 }
-.input-check:checked {
+.input-check:checked + span {
     background-color:#404bbf;
     border: none;
     
 }
-.input-check:checked + svg{
+.input-check:checked ~ svg{
     fill: #F4F4FD;
 }

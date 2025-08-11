@@ -589,7 +589,11 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 .field-data:focus{
     border-color: #4D5AE5;
-    fill: #4D5AE5;
+    
+}
+.field-data:focus + svg {
+    
+    fill:#4D5AE5;
 }
 .icon-input{
     position: absolute;
